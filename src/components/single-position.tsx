@@ -170,7 +170,7 @@ return(
       <Button size="small" onClick={handleAddFunds}>Add Funds</Button>
     </CardActions>
     {successAlert && (
-        <Alert severity="success">Action was successful!</Alert>
+        <Alert severity="success">Action was successful!!</Alert>
       )}
       {errorAlert && (
         <Alert severity="error">An error occurred while performing the action, try again.</Alert>
